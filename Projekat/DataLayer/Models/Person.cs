@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataLayer.Models
 {
-    public class Person : Employee
+    public class Employee : Person
     {
         public decimal Salary { get; set; }
     }
